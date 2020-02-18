@@ -1,6 +1,6 @@
-package com.thoughtworks.Discount;
+package com.thoughtworks;
 
-import com.thoughtworks.*;
+import com.thoughtworks.Discount.*;
 
 public class AnalysisResult {
     AnalysisOrder analysisOrder ;
