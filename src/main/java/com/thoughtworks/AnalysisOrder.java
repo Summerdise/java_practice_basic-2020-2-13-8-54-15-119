@@ -5,7 +5,7 @@ import java.util.*;
 public class AnalysisOrder {
 
     String selectedItems;
-    Map<Dish, Integer> itemMap ;
+    Map<Dish, Integer> itemMap;
     double totalPrice;
 
     public AnalysisOrder(String selectedItems) {

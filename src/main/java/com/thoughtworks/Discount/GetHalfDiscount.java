@@ -32,7 +32,7 @@ public class GetHalfDiscount implements Promotion {
         Map<Dish, Integer> halfDishMap = getHalfDishMap();
         int cheaperPrice = 0;
         for (Dish nowDish : halfDishMap.keySet()) {
-            cheaperPrice += nowDish.getPrice() * halfDishMap.get(nowDish)/2;
+            cheaperPrice += nowDish.getPrice() * halfDishMap.get(nowDish) / 2;
         }
         return cheaperPrice;
     }

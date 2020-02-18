@@ -1,10 +1,6 @@
 package com.thoughtworks.Discount;
 
-import com.thoughtworks.*;
-
-import java.util.*;
-
-public class GetDeSixDiscount implements Promotion{
+public class GetDeSixDiscount implements Promotion {
     double cheaperPrice;
     double totalPrice;
 
@@ -23,9 +19,9 @@ public class GetDeSixDiscount implements Promotion{
 
     @Override
     public double makeCheap() {
-        if(this.totalPrice<30){
+        if (this.totalPrice < 30) {
             return 0.0d;
-        }else{
+        } else {
             return 6.0d;
         }
     }
